@@ -17,7 +17,7 @@ A simple web app that lets users search for movies, view details, and add them t
 - HTML
 - CSS
 - JavaScript
-- OMDb API (for movie data)
+- RESTful OMDb API (for movie data)
 - localStorage
 
 

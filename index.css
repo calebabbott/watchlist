@@ -1,0 +1,213 @@
+body {
+    background-color: #121212;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    padding: 0;
+    margin: 0;
+  
+ 
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-image: url("/images/image36.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    padding-bottom: 50px;
+    
+}
+
+.nav-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+
+}
+
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+    text-align: center;
+    
+}
+
+
+.search-bar input[type=search] {
+    width: 75%;
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    margin: 0;
+    background-color: #2E2E2F;
+    color: whitesmoke;
+    font-size: 1rem;
+
+    
+}
+
+.search-bar input:focus {
+    outline: none;
+    background-color: #2E2E2F;
+}
+
+.search-bar button {
+    padding: 15px;
+    width: 10.8%;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 0;
+    background-color: #4B4B4B;
+    color: whitesmoke;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.search-bar form {
+    width: 100%;
+}
+
+
+.nav-header {
+    color: whitesmoke;
+    font-size: 4rem;
+    
+}
+
+.nav-link {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.5rem;
+   
+}
+
+.fa-film {
+    font-size: 6.25rem;
+    color: #2E2E2F;
+}
+
+.start {
+    color: #2E2E2F;
+}
+
+.movies {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+  
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.not-found {
+
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   height: 500px;
+   width: 350px;
+
+}
+
+.main-movie-con {
+    display: flex;
+    justify-content: left;
+    width: 85%;
+    padding-top: 50px;
+    border-bottom: solid #2C2C2C;
+}
+
+.img-movie-container {
+    color: whitesmoke;
+}
+
+.img-movie-container img {
+    width: 150px;
+    border-radius: 5px;
+    margin: 20px 25px 55px 0;
+}
+
+.movie-info-con {
+
+    color: whitesmoke;
+    width: 50%;
+
+}
+
+.movie-info-con h1 {
+    font-size: 1.225rem;
+    padding: 10px;
+}
+
+
+.movie-info-con p {
+    color: #A5A5A5;
+    padding: 10px;
+}
+
+.movie-title-data {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+    
+}
+
+.movie-title-data span {
+    margin: 0 0 0 20px;
+    padding: 0;
+    font-size: .775rem;
+
+}
+
+.fa-star {
+    color: gold;
+}
+
+.meta {
+    display: flex;
+    font-size: 12px;
+}
+
+.meta span {
+    padding: 10px;
+}
+
+.fa-circle-plus {
+    font-size: 14px;
+}
+
+.add {
+    cursor: pointer;
+}
+
+
+.not-found-message {
+    color: #787878;
+    font-size: 24px;
+    
+}
+
+.fa-circle-minus {
+    font-size: 14px;
+}
+
+.remove {
+    cursor: pointer;
+}
